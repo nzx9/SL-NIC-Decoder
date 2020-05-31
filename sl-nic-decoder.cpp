@@ -17,7 +17,7 @@ struct MD{
   int d;
 } md;
 
-MD monthAndDate(int val, int n = 0){
+MD monthAndDate(int val){
   if(val <= 31) return {"January", val};
   else if(val <= 60) return {"February", val - 31};
   else if(val <= 91) return {"March", val - 60};
@@ -29,7 +29,7 @@ MD monthAndDate(int val, int n = 0){
   else if(val <= 274) return {"September", val - 244};
   else if(val <= 305) return {"October", val - 274};
   else if(val <= 335) return {"November", val - 305};
-  else if(val <= 366) return {"December", val - 334 - n};
+  else if(val <= 366) return {"December", val - 335};
   else return {"Wrong NIC Number", -1};
 }
 
