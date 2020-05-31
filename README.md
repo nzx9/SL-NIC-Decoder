@@ -31,6 +31,6 @@ This Program works for <b>both</b> old(9 digits + v) and new(12 digits) NIC numb
     <li>if nic.length == 12 the year <- str2int(nic[0:3]), temp <- nic[4:6] and goto step 5</li>
     <li>if temp > 500 then gender <- female else gender <- male</li>
     <li>if temp > 500 then temp <- temp - 500</li>
-    <li>[month, day] <- monthAndDate(temp)</li>
+    <li>{month, day} <- monthAndDate(temp)</li>
     <li>return {{year, month, day}, gender}</li>
 </ol>
