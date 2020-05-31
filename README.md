@@ -4,7 +4,7 @@ Find Gender and Birthday by NIC Number (Sri Lanka) [Lang: C++]
 C++  program that can decode informations like gender and birthday, using Sri Lankan National Id Card Number.
 This Program works for <b>both</b> old(9 digits + v) and new(12 digits) NIC numbers.
 <hr/>
-Info about NIC<br/>
+<h3>Info about NIC</h3>
 <b>10 Character NIC | Ex: 987654321V</b>
 <ul>
   <li>First 2 characters(98) give the last two digits of birth year(1900 + 98 = 1998)</li>
@@ -22,7 +22,7 @@ Info about NIC<br/>
 </ul>
 
 <h4>Pseudocode</h4>
-<b>Algorithm NIC-Decoder(NIC)</b>
+<b>Algorithm NIC-Decoder(NIC)</b><br/>
 <i>input: NIC, Output: Struct includes birthday and gender</i><br/>
 <ol>
     <li>nic <- input NIC number(without v)</li>
