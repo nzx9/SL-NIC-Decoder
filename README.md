@@ -34,3 +34,7 @@ This Program works for <b>both</b> old(9 digits + v) and new(12 digits) NIC numb
     <li>{month, day} <- monthAndDate(temp)</li>
     <li>return {{year, month, day}, gender}</li>
 </ol>
+
+
+## Other Implementations
+For python implementation, please goto [krypto-i9/nic-exec](https://github.com/krypto-i9/nic-exec)
